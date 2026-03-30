@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+</head>
+<body>
+    
+    <h1>Pagamento</h1>
+
+    <form>
+
+        <h3>Dados do Cliente</h3>
+        <label>Nome:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <h3>Forma de Pagamento</h3>
+
+        <input type="radio" name="pagamento" value="cartao"> Cartão de Crédito<br>
+        <input type="radio" name="pagamento" value="boleto"> Boleto<br>
+        <input type="radio" name="pagamento" value="pix"> Pix<br><br>
+
+        <h3>Dados do Cartão (se escolher cartão)</h3>
+
+        <label>Número do Cartão:</label><br>
+        <input type="text" name="cartao"><br><br>
+
+        <label>Validade:</label><br>
+        <input type="text" name="validade" placeholder="MM/AA"><br><br>
+
+        <label>CVV:</label><br>
+        <input type="text" name="cvv"><br><br>
+
+        <button type="submit"> <a href="surpresa.html">Finalizar Pagamento</a></button>
+        <br>
+        <button type="button" onclick="window.location.href='pagina masculino.html'">voltar</button>
+
+    </form>
+
+</body>
+</html>
